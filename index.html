@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Cơ Bản</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .example { background: #f4f4f4; padding: 10px; border-left: 4px solid #333; }
+    </style>
+</head>
+<body>
+    <h1>HTML Cơ Bản</h1>
+    <h2>1. Cấu trúc</h2>
+    <p>Một tài liệu HTML bắt đầu với khai báo doctype, tiếp theo là các phần tử cơ bản như &lt;html&gt;, &lt;head&gt; và &lt;body&gt;.</p>
+    <div class="example">
+        <code>
+            &lt;!DOCTYPE html&gt;<br>
+            &lt;html&gt;<br>
+            &nbsp;&nbsp;&lt;head&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;Trang web&lt;/title&gt;<br>
+            &nbsp;&nbsp;&lt;/head&gt;<br>
+            &nbsp;&nbsp;&lt;body&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;Nội dung trang web<br>
+            &nbsp;&nbsp;&lt;/body&gt;<br>
+            &lt;/html&gt;
+        </code>
+    </div>
+    
+    <h2>2. Các thẻ chính</h2>
+    <h3>Tiêu đề</h3>
+    <p>Thẻ tiêu đề từ &lt;h1&gt; đến &lt;h6&gt; dùng để tạo các tiêu đề với độ quan trọng giảm dần.</p>
+    <div class="example">
+        <code>&lt;h1&gt;Tiêu đề chính&lt;/h1&gt;<br>&lt;h2&gt;Tiêu đề phụ&lt;/h2&gt;</code>
+    </div>
+    
+    <h3>Đoạn văn</h3>
+    <p>Thẻ &lt;p&gt; tạo đoạn văn bản.</p>
+    <div class="example">
+        <code>&lt;p&gt;Đây là một đoạn văn bản&lt;/p&gt;</code>
+    </div>
+    
+    <h3>Liên kết</h3>
+    <p>Thẻ &lt;a&gt; tạo liên kết đến các trang web khác.</p>
+    <div class="example">
+        <code>&lt;a href="https://www.google.com" target="_blank"&gt;Google&lt;/a&gt;</code>
+    </div>
+    
+    <h3>Hình ảnh</h3>
+    <p>Thẻ &lt;img&gt; dùng để chèn hình ảnh vào trang web.</p>
+    <div class="example">
+        <code>&lt;img src="image.jpg" alt="Hình ảnh mô tả" width="200"&gt;</code>
+    </div>
+    
+    <h3>Danh sách</h3>
+    <p>Danh sách có thể là không thứ tự (&lt;ul&gt;) hoặc có thứ tự (&lt;ol&gt;).</p>
+    <div class="example">
+        <code>
+            &lt;ul&gt;<br>
+            &nbsp;&nbsp;&lt;li&gt;Mục 1&lt;/li&gt;<br>
+            &nbsp;&nbsp;&lt;li&gt;Mục 2&lt;/li&gt;<br>
+            &lt;/ul&gt;<br>
+            &lt;ol&gt;<br>
+            &nbsp;&nbsp;&lt;li&gt;Mục 1&lt;/li&gt;<br>
+            &nbsp;&nbsp;&lt;li&gt;Mục 2&lt;/li&gt;<br>
+            &lt;/ol&gt;
+        </code>
+    </div>
+    
+    <h3>Bảng</h3>
+    <p>Thẻ &lt;table&gt; dùng để tạo bảng với các hàng (&lt;tr&gt;) và ô (&lt;td&gt; hoặc &lt;th&gt;).</p>
+    <div class="example">
+        <code>
+            &lt;table border="1"&gt;<br>
+            &nbsp;&nbsp;&lt;tr&gt;&lt;th&gt;Tên&lt;/th&gt;&lt;th&gt;Tuổi&lt;/th&gt;&lt;/tr&gt;<br>
+            &nbsp;&nbsp;&lt;tr&gt;&lt;td&gt;Nam&lt;/td&gt;&lt;td&gt;25&lt;/td&gt;&lt;/tr&gt;<br>
+            &lt;/table&gt;
+        </code>
+    </div>
+</body>
+</html>
+<table>
+    <tr>
+      <td id="td1"></td>
+      <td><a href="index.html">Bài 1</a></td>
+      <td><a href="bài2.html" > Bài 2</a></td>
+      <td><a href="bài3.html">Bài 3</a></td>
+      <td><a href="bài4.html">Bài 4</a></td>
+      <td></td>
+    </tr>
+  </table>
